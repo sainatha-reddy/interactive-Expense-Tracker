@@ -64,8 +64,6 @@ A modern expense-tracking application that helps users manage their finances eff
 4. **Access the Application:**
    - Open your web browser
    - Navigate to `http://localhost:5173`
-   - Log in using the provided credentials
-
 ---
 
 ## **👥 Group Members**
