@@ -71,12 +71,12 @@ export function Dashboard({ expenses, budget }: DashboardProps) {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm font-medium text-muted-foreground">Total Expenses</p>
-                <p className="text-3xl font-bold">${totalExpenses.toFixed(2)}</p>
+                <p className="text-3xl font-bold">₹{totalExpenses.toFixed(2)}</p>
               </div>
               {budget && (
                 <div className="text-right">
                   <p className="text-sm font-medium text-muted-foreground">Budget</p>
-                  <p className="text-3xl font-bold">${budget.amount.toFixed(2)}</p>
+                  <p className="text-3xl font-bold">₹{budget.amount.toFixed(2)}</p>
                 </div>
               )}
             </div>
@@ -94,8 +94,8 @@ export function Dashboard({ expenses, budget }: DashboardProps) {
                 />
                 <p className={`mt-2 text-sm ${isOverBudget ? 'text-destructive' : 'text-muted-foreground'}`}>
                   {isOverBudget 
-                    ? `Over budget by $${(totalExpenses - budget.amount).toFixed(2)}`
-                    : `$${(budget.amount - totalExpenses).toFixed(2)} remaining`}
+                    ? `Over budget by ₹${(totalExpenses - budget.amount).toFixed(2)}`
+                    : `₹${(budget.amount - totalExpenses).toFixed(2)} remaining`}
                 </p>
               </div>
             )}

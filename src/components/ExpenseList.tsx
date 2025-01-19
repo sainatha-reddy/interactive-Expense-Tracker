@@ -36,7 +36,7 @@ export function ExpenseList({ expenses, onEdit, onDelete }: ExpenseListProps) {
               <TableCell>{expense.description}</TableCell>
               <TableCell className="capitalize">{expense.category}</TableCell>
               <TableCell className="text-right">
-                ${expense.amount.toFixed(2)}
+                ₹{expense.amount.toFixed(2)}
               </TableCell>
               <TableCell className="text-right">
                 <Button
