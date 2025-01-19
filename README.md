@@ -1,68 +1,80 @@
-# Expense Tracker Web Application
+# 🚀 Expense Tracker Web Application 🚀
 
-## Project Description
-A modern expense tracking application that helps users manage their finances effectively. Built with React and Firebase, this application provides an intuitive interface for tracking expenses, setting budgets, and visualizing spending patterns through interactive charts.
+---
 
-## Features and Functionality
+## **🔖 Project Description**
+A modern expense-tracking application that helps users manage their finances effectively. Built with **React** and **Firebase**, this application provides an intuitive interface for tracking expenses, setting budgets, and visualizing spending patterns through **interactive charts**.
 
+---
 
-### 1. Expense Management
-- Add new expenses with details:
+## **📈 Features and Functionality**
+
+### **1. Expense Management 💳**
+- **Add New Expenses:**
   - Amount
   - Category
   - Date
   - Description
-- Delete existing expenses
-- View expense history
+- **Delete Existing Expenses**
+- **View Expense History**
 
-### 2. Budget Tracking
-- Set monthly budget
-- Real-time budget progress tracking
-- Visual indicators for:
+### **2. Budget Tracking 🏦**
+- **Set Monthly Budget**
+- **Real-Time Budget Progress Tracking**
+- **Visual Indicators:**
   - Remaining budget
   - Over-budget warnings
   - Percentage of budget used
 
-### 3. Visual Analytics
-- Interactive pie chart showing expenses by category
-- Bar chart displaying daily expenses
-- Monthly overview with total expenses
-- Budget progress visualization
+### **3. Visual Analytics 🔍**
+- **Interactive Pie Chart:** Showing expenses by category
+- **Bar Chart:** Displaying daily expenses
+- **Monthly Overview:** Total expenses
+- **Budget Progress Visualization**
 
-### 4. User Interface
-- Modern, responsive design
-- Dark mode support
-- Intuitive navigation
-- Real-time updates
+### **4. User Interface 🎨**
+- **Modern, Responsive Design**
+- **Dark Mode Support**
+- **Intuitive Navigation**
+- **Real-Time Updates**
 
-## Setup Instructions
+---
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm 
-- Web browser
+## **🔧 Setup Instructions**
 
-### Installation Steps
+### **🔹 Prerequisites**
+- **Node.js:** v14 or higher
+- **npm**: Installed
+- **Web Browser**
 
-1. Clone the repository:
-2. Install dependencies:
-  bash:
-  npm install
-3. 3. Start the development server:
-  bash:
-  npm run dev
+### **🔹 Installation Steps**
 
-4. Access the application:
-- Open your web browser
-- Navigate to `http://localhost:5173`
-- Login using the provided credentials
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/sainatha-reddy/interactive-Expense-Tracker.git
+   ```
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the Development Server:**
+   ```bash
+   npm run dev
+   ```
+4. **Access the Application:**
+   - Open your web browser
+   - Navigate to `http://localhost:5173`
+   - Log in using the provided credentials
 
-## Group Members
+---
 
-### 1. K.Akshay(CS23B1026)
+## **👥 Group Members**
 
-### 2. G.Shanumukha(CS23B1032)
+| Name                   | Roll Number     |
+|------------------------|-----------------|
+| **K. Akshay**          | CS23B1026       |
+| **G. Shanumukha**      | CS23B1032       |
+| **K. Krishna Chaitanya** | CS23B1026     |
+| **Y. Sainatha Reddy**  | CS23I1010       |
 
-### 3. K.Krishna Chaitanya(CS23B1026)
-
-### 4. Y.Sainatha Reddy(CS23I1010)
+---
