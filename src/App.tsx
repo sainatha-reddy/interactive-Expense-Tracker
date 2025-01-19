@@ -114,7 +114,7 @@ export default function App() {
 
           <TabsContent value="budget">
             <div className="max-w-md mx-auto">
-              <BudgetForm onSubmit={handleSetBudget} currentBudget={budget} />
+              <BudgetForm onSubmit={handleSetBudget} currentBudget={budget || undefined} />
             </div>
           </TabsContent>
         </Tabs>

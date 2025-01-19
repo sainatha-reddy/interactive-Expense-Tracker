@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react';
+import { useMemo } from 'react';
 import {
   PieChart,
   Pie,
@@ -91,7 +91,6 @@ export function Dashboard({ expenses, budget }: DashboardProps) {
                 <Progress 
                   value={Math.min(budgetProgress, 100)} 
                   className={`h-2 ${isOverBudget ? 'bg-destructive/20' : ''}`}
-                  indicatorClassName={isOverBudget ? 'bg-destructive' : ''}
                 />
                 <p className={`mt-2 text-sm ${isOverBudget ? 'text-destructive' : 'text-muted-foreground'}`}>
                   {isOverBudget 
