@@ -132,7 +132,7 @@ export function Dashboard({ expenses, budget }: DashboardProps) {
                   ))}
                 </Pie>
                 <Tooltip 
-                  formatter={(value: number) => [`$${value.toFixed(2)}`, 'Amount']}
+                  formatter={(value: number) => [`₹${value.toFixed(2)}`, 'Amount']}
                 />
                 <Legend 
                   formatter={(value) => value} 
@@ -163,7 +163,7 @@ export function Dashboard({ expenses, budget }: DashboardProps) {
                   tick={{ fill: 'hsl(var(--muted-foreground))' }}
                   tickLine={{ stroke: 'hsl(var(--muted-foreground))' }}
                   axisLine={{ stroke: 'hsl(var(--muted-foreground))' }}
-                  tickFormatter={(value) => `$${value}`}
+                  tickFormatter={(value) => `₹${value}`}
                 />
                 <Tooltip
                   contentStyle={{
@@ -171,7 +171,7 @@ export function Dashboard({ expenses, budget }: DashboardProps) {
                     border: '1px solid hsl(var(--border))',
                     borderRadius: 'var(--radius)',
                   }}
-                  formatter={(value: number) => [`$${value.toFixed(2)}`, 'Amount']}
+                  formatter={(value: number) => [`₹${value.toFixed(2)}`, 'Amount']}
                 />
                 <Bar
                   dataKey="amount"
